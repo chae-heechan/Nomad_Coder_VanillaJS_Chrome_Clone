@@ -1,7 +1,10 @@
-const daysOfWeek = ["mon", "tue", "wen", "thu", "fri", "sat"];
+const player = {
+    name: "chae",
+    points: 10,
+    fat: false,
+};
 
-console.log(daysOfWeek);
-
-daysOfWeek.push("sun");
-
-console.log(daysOfWeek);
+console.log(player);
+player.lastName = "potato";
+player.points += 15;
+console.log(player);
