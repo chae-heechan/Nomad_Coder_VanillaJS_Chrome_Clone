@@ -1,10 +1,10 @@
+
 const player = {
     name: "chae",
-    points: 10,
-    fat: false,
+    sayHello: function(otherPersonName){
+        console.log("hello " + otherPersonName);
+    },
 };
 
-console.log(player);
-player.lastName = "potato";
-player.points += 15;
-console.log(player);
+player.sayHello(player.name);
+player.sayHello("gom");
