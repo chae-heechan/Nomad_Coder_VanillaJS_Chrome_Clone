@@ -1,15 +1,13 @@
 const h1 = document.querySelector(".hello:first-child h1");
 
 function handleTitleClick(){
-    const currnetColor = h1.style.color;
-    let newColor;
-    if(currnetColor !== "blue"){
-        newColor = "blue";
+    const clickedClass = "active"
+    if(h1.className === clickedClass){
+        h1.className = "";
     }
     else{
-        newColor = "tomato";
+        h1.className = clickedClass;
     }
-    h1.style.color = newColor;
 }
 
 
