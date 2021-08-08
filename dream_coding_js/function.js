@@ -1,3 +1,5 @@
+'user strict';
+
 // parameter
 function showMessage(...args){
   // 3개 다 같은 기능
