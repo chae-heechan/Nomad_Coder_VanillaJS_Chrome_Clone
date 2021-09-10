@@ -9,8 +9,8 @@ function onLoginSubmit(event){
 } 
 
 function handleLinkClick(event){
-    event.preventDefault();
-    console.dir(event);
+    event.preventDefault(); 
+    console.dir(event);     // MouseEvent
     alert("clicked!");
 }
 
