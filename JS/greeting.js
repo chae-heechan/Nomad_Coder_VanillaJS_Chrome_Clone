@@ -18,7 +18,6 @@ function paintGreeting(username){
 }
 
 const savedUserName = localStorage.getItem(USERNAME_KEY);
-console.log(savedUserName);
 
 // userName이 없을 경우
 if (savedUserName == null){
