@@ -10,5 +10,6 @@ function  getClock(){
   clock.innerText = (`${hours}:${minutes}:${seconds}`);
 }
 
+// 인터벌 시작 전 한번 미리 실행
 getClock();
 setInterval(getClock, 1000);
