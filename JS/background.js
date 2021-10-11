@@ -14,4 +14,5 @@ function viewRandomBackgroundImage(){
   document.body.appendChild(backgroundImage);
 }
 
+// 처음 한번만 배경화면 설정
 viewRandomBackgroundImage();
