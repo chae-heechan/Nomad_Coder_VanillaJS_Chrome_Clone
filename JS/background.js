@@ -11,7 +11,7 @@ function viewRandomBackgroundImage(){
   
   backgroundImage.src = `img/${randomImage}`;
 
-  document.body.appendChild(backgroundImage);
+  document.body.prepend(backgroundImage);
 }
 
 // 처음 한번만 배경화면 설정
