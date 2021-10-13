@@ -25,4 +25,4 @@ if (savedUserName == null){
     loginForm.addEventListener("submit", onLoginSubmit);
 }else{  // userName이 있을 경우
     paintGreeting(savedUserName);
-}
+} 
